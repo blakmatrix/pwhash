@@ -3,16 +3,10 @@ branches:
   only:
     - master
 node_js:
-  - 0.4
   - 0.6
   - 0.8
 
 notifications:
   email:
     - blakmatrix@nodejitsu.com
-  irc:
-    channels:
-      - "irc.freenode.org#nodejitsu"
-    template:
-      - "%{repository_url} (%{commit}) : %{message} %{foo} "
-      - "Build details: %{build_url}"
+  irc: "irc.freenode.org#nodejitsu"
