@@ -1,9 +1,13 @@
 {
   "description": "Generate password hashes from the command line.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "flatiron": "0.2.5"
+    "flatiron": "0.2.5",
+    "node_hash": "0.2.x"
+  },
+  "bin": {
+    "pwhash": "./pwhash.js"
   },
   "devDependencies": {
     "cli-easy": "0.1.0",
@@ -11,7 +15,7 @@
   },
   "scripts": {
     "test": "vows --spec",
-    "start": "node app.js"
+    "start": "node pwhash.js"
   },
   "name": "pwhash",
   "author": "Farrin Reid <blakmatrix@gmail.com>",
