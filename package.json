@@ -1,7 +1,7 @@
 {
   "description": "Generate password hashes from the command line.",
   "version": "0.0.1",
-  "private": true,
+  "private": false,
   "dependencies": {
     "flatiron": "0.2.5",
     "node_hash": "0.2.x"
