@@ -1,0 +1,17 @@
+language: node_js
+branches:
+  only:
+    - master
+node_js:
+  - 0.6
+  - 0.7
+
+notifications:
+  email:
+    - travis@nodejitsu.com
+  irc:
+    channels:
+      -"irc.freenode.org#nodejitsu"
+    template:
+      - "%{repository_url} (%{commit}) : %{message} %{foo} "
+      - "Build details: %{build_url}"

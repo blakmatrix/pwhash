@@ -1,6 +1,19 @@
 {
   "description": "Generate password hashes from the command line.",
-  "version": "0.0.1",
+  "keywords": [
+    "md5",
+    "sha1",
+    "sha256",
+    "sha512",
+    "mdripe160",
+    "command",
+    "line",
+    "tool",
+    "generate",
+    "password",
+    "hash"
+  ],
+  "version": "0.0.2",
   "private": false,
   "dependencies": {
     "flatiron": "0.2.5",
@@ -11,10 +24,10 @@
   },
   "devDependencies": {
     "cli-easy": "0.1.0",
-    "vows": "0.6.1"
+    "tap": "0.2.x"
   },
   "scripts": {
-    "test": "vows --spec",
+    "test": "node ./test/test.js",
     "start": "node pwhash.js"
   },
   "name": "pwhash",

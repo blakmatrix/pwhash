@@ -1,5 +1,7 @@
 # pwhash
 
+
+[![build status](https://secure.travis-ci.org/blakmatrix/pwhash.png)](http://travis-ci.org/blakmatrix/pwhash)
 A tiny utility to generate password hashes from the command line.
 
 ## Usage:
@@ -21,7 +23,11 @@ info:    pwhash ok
 
 ## Install:
 
-    npm install pwhash
+`npm install pwhash`
+
+## Test
+
+`npm test`
 
 ## License:
 
